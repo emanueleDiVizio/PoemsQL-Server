@@ -1,0 +1,13 @@
+{
+  "name": "PoemsQLServer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "emanueledivizio <emadivizio@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^0.2.3"
+  },
+  "scripts": {
+    "start": "node ."
+  }
+}
