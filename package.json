@@ -5,9 +5,23 @@
   "author": "emanueledivizio <emadivizio@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^0.2.3"
+    "apisauce": "^0.14.2",
+    "eslint": "^4.12.1",
+    "graphql-yoga": "0.2.2",
+    "lodash": "^4.17.4",
+    "node-fetch": "^1.7.3",
+    "nodemon": "^1.12.5"
   },
   "scripts": {
-    "start": "node ."
+    "start": "nodemon src/index.js --exec babel-node",
+    "build": "babel src -d lib",
+    "serve": "node lib/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-inline-import": "^2.0.6",
+    "babel-preset-env": "^1.6.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
   }
 }
