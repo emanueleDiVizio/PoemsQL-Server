@@ -1,0 +1,5 @@
+type Poem {
+  title: String!
+  author: String!
+  lines: [String!]!
+}

@@ -1,0 +1,17 @@
+// author.js
+import { poemsForAuthor } from '../../poemsApi';
+import Author from './author.graphql';
+import Poem from '../Poem';
+
+export const resolvers = {
+  Author: {
+    poems(author) {
+      return poemsForAuthor(author.name);
+    },
+    name(author) {
+      return author.name;
+    },
+  },
+};
+
+export default () => [Author, Poem];
