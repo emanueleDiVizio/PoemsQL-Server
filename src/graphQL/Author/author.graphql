@@ -1,0 +1,4 @@
+type Author {
+  name: String!
+  poems: [Poem!]! # the list of Posts by this author
+}
