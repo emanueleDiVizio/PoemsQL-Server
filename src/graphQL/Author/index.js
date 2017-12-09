@@ -1,5 +1,5 @@
 // author.js
-import { poemsForAuthor } from '../../poemsApi';
+import { poemsForAuthor } from '../../externalApis/poemsApi';
 import Author from './author.graphql';
 import Poem from '../Poem';
 

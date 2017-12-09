@@ -1,5 +1,5 @@
 import Author from '../Author';
-import { authors, poem } from '../../poemsApi';
+import { authors, poem } from '../../externalApis/poemsApi';
 import RootQuery from './rootQuery.graphql';
 
 export const resolvers = {
