@@ -1,7 +1,7 @@
 import Author from '../Author';
 import Painting from '../Painting';
 import { authors, poem } from '../../externalApis/poemsApi';
-import { randomPainting, paintings } from '../../externalApis/paintingsApi';
+import { painting, paintings } from '../../externalApis/paintingsApi';
 import RootQuery from './rootQuery.graphql';
 
 export const resolvers = {
@@ -15,8 +15,8 @@ export const resolvers = {
     poem(_, { author, title }) {
       return poem(author, title);
     },
-    randomPainting() {
-      return randomPainting();
+    painting(_, { title }) {
+      return painting(title);
     },
     paintings(_, { painter }) {
       return paintings(painter);

@@ -2,6 +2,6 @@ type RootQuery {
   authors: [String!]!
   author(name: String!): Author
   poem(author: String!, title: String!): Poem
-  randomPainting: Painting!
+  painting(title: String): Painting
   paintings(painter: String): [Painting!]!
 }
