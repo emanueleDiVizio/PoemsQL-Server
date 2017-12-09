@@ -1,5 +1,6 @@
 // author.js
-import { poemsForAuthor } from '../../poemsApi';
+import { poemsForAuthor } from '../../externalApis/poemsApi';
+import { authorPortrait } from '../../externalApis/portraitApi';
 import Author from './author.graphql';
 import Poem from '../Poem';
 
@@ -10,6 +11,9 @@ export const resolvers = {
     },
     name(author) {
       return author.name;
+    },
+    portrait(author) {
+      return authorPortrait(author.name);
     },
   },
 };
