@@ -1,0 +1,35 @@
+[
+  {
+    "painter": "J.M.W. Turner",
+    "title": "The Fighting Temeraire tugged to her last berth to be broken up",
+    "image":
+      "https://uploads8.wikiart.org/images/william-turner/the-fighting-temeraire-tugged-to-her-last-berth-to-be-broken-up-1839.jpg"
+  },
+  {
+    "painter": "Vincent van Gogh",
+    "title": "The Starry Night",
+    "image": "https://uploads4.wikiart.org/00142/images/vincent-van-gogh/the-starry-night.jpg"
+  },
+  {
+    "painter": "Vincent Van Gogh",
+    "title": "Wheatfield with Crows",
+    "image": "https://uploads4.wikiart.org/images/vincent-van-gogh/wheatfield-with-crows-1890.jpg"
+  },
+  {
+    "painter": "John Constable",
+    "title": "Cenotaph to the Memory of Sir Joshua Reynolds",
+    "image":
+      "https://uploads5.wikiart.org/images/john-constable/cenotaph-to-the-memory-of-sir-joshua-reynolds-1.jpg"
+  },
+  {
+    "painter": "Claude Monet",
+    "title": "Impression, sunrise",
+    "image": "https://uploads1.wikiart.org/images/claude-monet/impression-sunrise.jpg"
+  },
+  {
+    "painter": "Caspar David Friedrich",
+    "title": "The wanderer above the sea of fog",
+    "image":
+      "https://uploads8.wikiart.org/images/caspar-david-friedrich/the-wanderer-above-the-sea-of-fog.jpg"
+  }
+]

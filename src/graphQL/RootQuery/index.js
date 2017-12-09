@@ -1,6 +1,9 @@
 import Author from '../Author';
+import Painting from '../Painting';
 import { authors, poem } from '../../externalApis/poemsApi';
 import RootQuery from './rootQuery.graphql';
+
+const paintings = require('../../data/paintings');
 
 export const resolvers = {
   RootQuery: {
@@ -13,7 +16,10 @@ export const resolvers = {
     poem(_, { author, title }) {
       return poem(author, title);
     },
+    painting() {
+      return paintings[Math.floor(Math.random() * paintings.length)];
+    },
   },
 };
 
-export default () => [RootQuery, Author];
+export default () => [RootQuery, Author, Painting];

@@ -1,0 +1,5 @@
+type Painting {
+  title: String!
+  painter: String!
+  image: String!
+}
