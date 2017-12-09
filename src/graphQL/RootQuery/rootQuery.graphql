@@ -1,5 +1,5 @@
 type RootQuery {
-  authors: [String!]!
+  authors(size: Int!, offset: Int!): [String!]!
   author(name: String!): Author
   poem(author: String!, title: String!): Poem
   painting(title: String): Painting
