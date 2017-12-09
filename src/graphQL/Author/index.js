@@ -9,9 +9,6 @@ export const resolvers = {
     poems(author) {
       return poemsForAuthor(author.name);
     },
-    name(author) {
-      return author.name;
-    },
     portrait(author) {
       return authorPortrait(author.name);
     },
