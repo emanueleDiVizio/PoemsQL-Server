@@ -9,8 +9,8 @@ export const resolvers = {
     author(_, { name }) {
       return { name };
     },
-    authors() {
-      return authors().then(res => res.authors);
+    authors(_, { size, offset }) {
+      return authors().then(res => res.authors.slice(offset, offset + size));
     },
     poem(_, { author, title }) {
       return poem(author, title);
