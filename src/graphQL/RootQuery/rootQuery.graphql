@@ -1,7 +1,8 @@
 type RootQuery {
-  authors(size: Int!, offset: Int!): [String!]!
+  authors(size: Int!, offset: Int!): [Author]
   author(name: String!): Author
   poem(author: String!, title: String!): Poem
+  poems(author: String!, size: Int!, offset: Int!): [Poem!]!
   painting(title: String): Painting
   paintings(painter: String): [Painting!]!
 }
