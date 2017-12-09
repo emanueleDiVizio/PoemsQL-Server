@@ -1,5 +1,5 @@
 import Author from '../Author';
-import { authors } from '../../poemsApi';
+import { authors, poem } from '../../poemsApi';
 import RootQuery from './rootQuery.graphql';
 
 export const resolvers = {
@@ -9,6 +9,9 @@ export const resolvers = {
     },
     authors() {
       return authors().then(res => res.authors);
+    },
+    poem(_, { author, title }) {
+      return poem(author, title);
     },
   },
 };

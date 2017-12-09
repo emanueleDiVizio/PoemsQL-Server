@@ -1,4 +1,5 @@
 type RootQuery {
-  author(name: String!): Author
   authors: [String!]!
+  author(name: String!): Author
+  poem(author: String!, title: String!): Poem
 }
