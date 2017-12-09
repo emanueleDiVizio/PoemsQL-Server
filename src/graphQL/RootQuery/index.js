@@ -2,8 +2,7 @@ import Author from '../Author';
 import Painting from '../Painting';
 import { authors, poem } from '../../externalApis/poemsApi';
 import RootQuery from './rootQuery.graphql';
-
-const paintings = require('../../data/paintings');
+import paintings from '../../data/paintings.json';
 
 export const resolvers = {
   RootQuery: {
