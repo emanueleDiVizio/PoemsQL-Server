@@ -1,5 +1,9 @@
 type Painting {
   title: String!
-  painter: String!
+  painter: Painter!
   image: String!
+}
+
+type Painter {
+  name: String
 }

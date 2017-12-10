@@ -1,7 +1,7 @@
 import Author from '../Author';
 import Painting from '../Painting';
 import { authors, poem } from '../../externalApis/poemsApi';
-import { painting, paintings } from '../../externalApis/paintingsApi';
+import { painting, paintings } from '../../externalApis/graphQl/paintings/paintingsApi';
 import RootQuery from './rootQuery.graphql';
 
 export const resolvers = {
