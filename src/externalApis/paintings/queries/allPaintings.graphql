@@ -1,0 +1,9 @@
+query AllPaintings {
+  allPaintings {
+    title
+    painter {
+      name
+    }
+    image
+  }
+}

@@ -1,0 +1,9 @@
+query PaintingQuery($title: String!) {
+  allPaintings(filter: { title: $title }) {
+    title
+    painter {
+      name
+    }
+    image
+  }
+}

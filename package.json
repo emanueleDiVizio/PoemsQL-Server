@@ -6,6 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "apisauce": "^0.14.2",
+    "apollo-fetch": "^0.7.0",
     "babel-plugin-inline-json-import": "^0.2.1",
     "eslint": "^4.12.1",
     "graphql-yoga": "0.2.2",
