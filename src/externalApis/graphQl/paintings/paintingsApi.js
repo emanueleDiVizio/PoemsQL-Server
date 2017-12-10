@@ -1,8 +1,5 @@
-import { createApolloFetch } from 'apollo-fetch';
 import queries from './queries';
-
-const uri = 'https://api.graph.cool/simple/v1/cjb13kudd0wdw0181jrw8e7to';
-const apolloFetch = createApolloFetch({ uri });
+import apolloFetch from '../apolloFetch';
 
 const randomFromArray = array => array[Math.floor(Math.random() * array.length)];
 const allPaintings = () =>
