@@ -1,0 +1,5 @@
+query AuthorPortrait($name: String!) {
+  allPortraits(filter: { author: { name: $name } }) {
+    image
+  }
+}

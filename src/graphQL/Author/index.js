@@ -1,6 +1,6 @@
 // author.js
 import { poemsForAuthor } from '../../externalApis/poemsApi';
-import { authorPortrait } from '../../externalApis/portraitApi';
+import { authorPortrait } from '../../externalApis/graphQl/portraits/portraitApi';
 import Author from './author.graphql';
 import Poem from '../Poem';
 
